@@ -1,0 +1,5 @@
+select * from colours c
+where exists (
+ select null from bricks b
+ where b.colour = c.colour_name
+);

@@ -1,0 +1,42 @@
+Token | Tipo | Código
+select | SELECT | 349=null
+* | ASTERISK | 511='*'
+from | FROM | 158=null
+colours | REGULAR_ID | 630=null
+c | C_LETTER | 47=null
+where | WHERE | 442=null
+exists | EXISTS | 140=null
+( | LEFT_PAREN | 508='('
+select | SELECT | 349=null
+null | NULL | 261=null
+from | FROM | 158=null
+bricks | REGULAR_ID | 630=null
+b | REGULAR_ID | 630=null
+where | WHERE | 442=null
+b | REGULAR_ID | 630=null
+. | PERIOD | 501='.'
+colour | REGULAR_ID | 630=null
+= | EQUALS_OP | 531='='
+c | C_LETTER | 47=null
+. | PERIOD | 501='.'
+colour_name | REGULAR_ID | 630=null
+) | RIGHT_PAREN | 509=')'
+; | SEMICOLON | 520=';'
+
+
+Tipos de tokens y su frecuencia de aparición:
+C_LETTER | 2
+EQUALS_OP | 1
+NULL | 1
+EXISTS | 1
+SPACES | 17
+RIGHT_PAREN | 1
+ASTERISK | 1
+FROM | 2
+WHERE | 2
+LEFT_PAREN | 1
+SELECT | 2
+REGULAR_ID | 6
+SEMICOLON | 1
+PERIOD | 2
+EOF | 1
